@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 4rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 30px;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+
+
+.container {
+    background: #fff;
+    height: 100vh;
+    padding: 40px 0;
+}
+
+header {
+    padding: 20px 70px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-bar ul li {
+    padding: 30px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.showcase-1 {
+    padding: 0 70px;
+    line-height: 2rem;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.showcase-1 form input {
+    margin-right: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    border: 0.5px solid rgb(34, 33, 33);
+    border-radius: 5px;
+    padding: 12px 150px 12px 10px;
+}
+
+form {
+    margin-top: 30px;
+}
+
+.btn {
+    color: rgba(255, 251, 251, 0.884);
+    padding: 12px 70px;
+    
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: hsl(224, 93%, 58%);
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: hsl(224, 91%, 44%);
+}
+
+.link {
+    padding: 30px 0;
+    text-decoration: underline;
+    color: hsl(170, 45%, 43%);
+}
+
+.link div img {
+    width: 25px;
+    margin-left: 10px;
+}
+
+
+
+.showcase-2 {
+    padding: 0 70px;
+    line-height: 2rem;
+    font-size: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.quote {
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.705);
+    box-shadow: 5px 5px 5px 0 rgb(110, 109, 109);
+    width: 80%;
+    height: auto;
+}
+
+.quote p {
+    font-size: 20px;
+}
+
+.quote p img {
+    width: 30px;
+}
+
+.avatar {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+}
+
+.avatar img {
+    border-radius: 50%;
+    width: 20%;
+}
+
+.info {
+    line-height: 1.5rem;
+    margin-left: 10px;
+    width: 90%;
+    font-size: 20px;
+}
+
+.showcase-3 {
+    color: #fff;
+    background-color: hsl(238, 22%, 44%);
+    line-height: 2rem;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+.showcase-3 div {
+    padding: 0 50px;
+}
+
+
+.showcase-3 p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.showcase-3 form {
+    width: 50%;
+    padding-right: 50px;
+    margin: 100px;
+    
+}
+
+.showcase-3 form input {
+    margin-bottom: 1rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 300px 12px 10px;
+    line-height: 1.5rem;
+}
